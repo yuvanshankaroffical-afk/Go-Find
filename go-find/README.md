@@ -29,6 +29,11 @@ ResearchCollab solves this by providing a single place to research + manage + co
 - Folder + tag organization
 - Quick search and filters
 
+<img width="1907" height="847" alt="image" src="https://github.com/user-attachments/assets/527825ff-6105-4a99-9f47-7d3d2327a9e6" />
+
+- 
+<img width="1913" height="847" alt="image" src="https://github.com/user-attachments/assets/1a0aace3-27b0-4984-8375-5861f123f4bc" />
+
 ### 👥 Workspaces (Project Collaboration)
 - Create workspaces for each project/team
 - Invite members with roles (Owner/Admin/Editor/Viewer)
