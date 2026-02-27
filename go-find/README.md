@@ -25,8 +25,8 @@ ResearchCollab solves this by providing a single place to research + manage + co
 - Session history (continue anytime)
 
 ### 📚 Research Library
+<img width="1907" height="852" alt="image" src="https://github.com/user-attachments/assets/9bcf2072-b139-4465-b053-3137a04177eb" />
 
-![Uploading image.png…]()
 
 - Save papers, experts, links, and notes
 - Folder + tag organization
@@ -85,3 +85,148 @@ ResearchCollab solves this by providing a single place to research + manage + co
   - ORCID
 
 ## Project Structure (Example)
+Go-Find/
+├─ README.md
+├─ .gitignore
+├─ docs/
+│  ├─ screenshots/
+│  ├─ api-spec.md
+│  └─ database-schema.md
+│
+├─ frontend/
+│  ├─ package.json
+│  ├─ tsconfig.json
+│  ├─ vite.config.ts
+│  ├─ tailwind.config.js
+│  ├─ postcss.config.js
+│  ├─ index.html
+│  ├─ public/
+│  │  └─ logo.svg
+│  └─ src/
+│     ├─ main.tsx
+│     ├─ App.tsx
+│     ├─ routes/
+│     │  ├─ index.tsx
+│     │  └─ ProtectedRoute.tsx
+│     ├─ pages/
+│     │  ├─ Home/
+│     │  │  └─ HomePage.tsx
+│     │  ├─ Auth/
+│     │  │  ├─ Login.tsx
+│     │  │  └─ Register.tsx
+│     │  ├─ Workspaces/
+│     │  │  ├─ WorkspaceList.tsx
+│     │  │  ├─ WorkspaceDashboard.tsx
+│     │  │  ├─ WorkspaceSettings.tsx
+│     │  │  └─ Members.tsx
+│     │  ├─ Chat/
+│     │  │  ├─ ChatViewPage.tsx
+│     │  │  └─ components/
+│     │  │     ├─ SidebarSessions.tsx
+│     │  │     ├─ ChatHeader.tsx
+│     │  │     ├─ ChatTranscript.tsx
+│     │  │     ├─ MessageBubble.tsx
+│     │  │     ├─ Composer.tsx
+│     │  │     ├─ AgentSteps.tsx
+│     │  │     └─ RightPanelTabs.tsx
+│     │  ├─ Library/
+│     │  │  └─ LibraryPage.tsx
+│     │  ├─ Profile/
+│     │  │  ├─ ProfilePage.tsx
+│     │  │  └─ EditProfilePage.tsx
+│     │  └─ Projects/
+│     │     ├─ NewProjectPage.tsx
+│     │     └─ ProjectDetails.tsx
+│     ├─ components/
+│     │  ├─ ui/
+│     │  │  ├─ Button.tsx
+│     │  │  ├─ Input.tsx
+│     │  │  ├─ Modal.tsx
+│     │  │  ├─ Tabs.tsx
+│     │  │  ├─ Toast.tsx
+│     │  │  └─ ChipInput.tsx
+│     │  ├─ layout/
+│     │  │  ├─ Sidebar.tsx
+│     │  │  └─ Header.tsx
+│     │  └─ cards/
+│     │     ├─ PaperCard.tsx
+│     │     ├─ ExpertCard.tsx
+│     │     └─ ProjectCard.tsx
+│     ├─ store/
+│     │  ├─ authStore.ts
+│     │  ├─ workspaceStore.ts
+│     │  └─ sessionStore.ts
+│     ├─ services/
+│     │  ├─ api.ts
+│     │  ├─ auth.service.ts
+│     │  ├─ workspace.service.ts
+│     │  ├─ search.service.ts
+│     │  └─ chat.service.ts
+│     ├─ types/
+│     │  ├─ user.ts
+│     │  ├─ workspace.ts
+│     │  ├─ session.ts
+│     │  ├─ artifacts.ts
+│     │  └─ project.ts
+│     ├─ utils/
+│     │  ├─ constants.ts
+│     │  ├─ format.ts
+│     │  └─ storage.ts
+│     └─ styles/
+│        └─ index.css
+│
+└─ backend/
+   ├─ package.json
+   ├─ tsconfig.json
+   ├─ .env.example
+   ├─ prisma/
+   │  ├─ schema.prisma
+   │  ├─ migrations/
+   │  └─ seed.ts
+   └─ src/
+      ├─ server.ts
+      ├─ app.ts
+      ├─ config/
+      │  └─ env.ts
+      ├─ routes/
+      │  ├─ auth.routes.ts
+      │  ├─ home.routes.ts
+      │  ├─ workspace.routes.ts
+      │  ├─ session.routes.ts
+      │  ├─ search.routes.ts
+      │  ├─ library.routes.ts
+      │  ├─ task.routes.ts
+      │  └─ project.routes.ts
+      ├─ controllers/
+      │  ├─ auth.controller.ts
+      │  ├─ home.controller.ts
+      │  ├─ workspace.controller.ts
+      │  ├─ session.controller.ts
+      │  ├─ search.controller.ts
+      │  ├─ library.controller.ts
+      │  ├─ task.controller.ts
+      │  └─ project.controller.ts
+      ├─ services/
+      │  ├─ auth.service.ts
+      │  ├─ home.service.ts
+      │  ├─ workspace.service.ts
+      │  ├─ session.service.ts
+      │  ├─ search.service.ts
+      │  ├─ mockAgent.service.ts
+      │  └─ providers/
+      │     ├─ openalex.ts
+      │     ├─ semanticscholar.ts
+      │     ├─ arxiv.ts
+      │     ├─ crossref.ts
+      │     └─ orcid.ts
+      ├─ middleware/
+      │  ├─ auth.ts
+      │  ├─ errorHandler.ts
+      │  └─ rateLimit.ts
+      ├─ utils/
+      │  ├─ logger.ts
+      │  ├─ cache.ts
+      │  └─ response.ts
+      └─ types/
+         ├─ api.ts
+         └─ search.ts
