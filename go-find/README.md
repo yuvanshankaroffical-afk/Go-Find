@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ResearchCollab 🚀  
+AI-Powered Student Research & Project Collaboration Platform
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/bedbec06-5b5d-4efb-ab15-4390599bff4c
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+<img width="1903" height="850" alt="image" src="https://github.com/user-attachments/assets/c451b73a-edd4-448b-9edd-bf659c73c0ce" />
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Overview
+ResearchCollab is a web platform that helps students discover project topics, search research papers, find relevant experts, and collaborate inside workspaces. It combines a ChatGPT-style research assistant with organized project tools like library, notes, tasks, and report export.
+
+## Why this project?
+Students often struggle with:
+- Selecting good project/research topics
+- Finding trusted papers and resources
+- Understanding research in simple language
+- Forming teams and collaborating effectively
+- Organizing references, notes, and reports
+
+ResearchCollab solves this by providing a single place to research + manage + collaborate.
+
+## Key Features
+### 🔍 AI Research Sessions (Chat View)
+- Ask any topic (e.g., “AI in Healthcare”)
+- Role-based summaries (High School → PhD)
+- Follow-up questions like ChatGPT
+- Session history (continue anytime)
+
+### 📚 Research Library
+- Save papers, experts, links, and notes
+- Folder + tag organization
+- Quick search and filters
+
+### 👥 Workspaces (Project Collaboration)
+- Create workspaces for each project/team
+- Invite members with roles (Owner/Admin/Editor/Viewer)
+- Store sessions, library items, and notes per workspace
+
+### ✅ Tasks & Milestones
+- Kanban board (To-do / Doing / Done)
+- Assign tasks, set due dates
+- Track milestones and progress
+
+### 📄 Report Generator
+- Export research report (Phase-1: TXT/MD)
+- (Future) PDF/Word export with citations
+
+## Tech Stack
+### Frontend
+- React (TSX)
+- TailwindCSS
+- Framer Motion
+- lucide-react
+
+### Backend (Planned / In progress)
+- Node.js + Express + TypeScript
+- PostgreSQL + Prisma
+- JWT Authentication
+- Paper/Author search via free APIs:
+  - OpenAlex
+  - Semantic Scholar
+  - arXiv
+  - Crossref
+  - ORCID
+
+## Project Structure (Example)
