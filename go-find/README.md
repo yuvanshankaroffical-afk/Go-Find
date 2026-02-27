@@ -63,7 +63,8 @@ ResearchCollab solves this by providing a single place to research + manage + co
 - Export research report (Phase-1: TXT/MD)
 - (Future) PDF/Word export with citations
 
-- <img width="1907" height="852" alt="image" src="https://github.com/user-attachments/assets/3ce38599-4fff-4a0c-8274-251a7e4b12ba" />
+<img width="1847" height="852" alt="image" src="https://github.com/user-attachments/assets/f2447e79-dafd-4c98-a115-9ac1ce00faf9" />
+
 
 
 ## Tech Stack
