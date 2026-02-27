@@ -39,14 +39,29 @@ ResearchCollab solves this by providing a single place to research + manage + co
 - Invite members with roles (Owner/Admin/Editor/Viewer)
 - Store sessions, library items, and notes per workspace
 
+- <img width="1897" height="848" alt="image" src="https://github.com/user-attachments/assets/227ac6c9-caed-43e7-94de-aab12749913c" />
+
+
+- <img width="1910" height="852" alt="image" src="https://github.com/user-attachments/assets/a3229ca8-96d9-4729-ac7d-1a22a4dc6a6a" />
+
+
 ### ✅ Tasks & Milestones
 - Kanban board (To-do / Doing / Done)
 - Assign tasks, set due dates
 - Track milestones and progress
 
+- <img width="1902" height="850" alt="image" src="https://github.com/user-attachments/assets/534639bc-0b8f-4c72-bf4e-a60c2b7ea017" />
+
+
+<img width="1892" height="852" alt="image" src="https://github.com/user-attachments/assets/63aba3af-1867-4406-b305-adedb1fba590" />
+
+
 ### 📄 Report Generator
 - Export research report (Phase-1: TXT/MD)
 - (Future) PDF/Word export with citations
+
+- <img width="1907" height="852" alt="image" src="https://github.com/user-attachments/assets/3ce38599-4fff-4a0c-8274-251a7e4b12ba" />
+
 
 ## Tech Stack
 ### Frontend
