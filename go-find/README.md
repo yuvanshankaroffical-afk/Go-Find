@@ -25,6 +25,9 @@ ResearchCollab solves this by providing a single place to research + manage + co
 - Session history (continue anytime)
 
 ### 📚 Research Library
+
+![Uploading image.png…]()
+
 - Save papers, experts, links, and notes
 - Folder + tag organization
 - Quick search and filters
